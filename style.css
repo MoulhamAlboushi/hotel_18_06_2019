@@ -3,6 +3,7 @@ html,
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7em;
+  box-sizing: border-box;
 }
 .container {
   margin: auto;
@@ -56,6 +57,10 @@ a {
   float: left;
 }
 /*Showcase*/
+#showcase,
+#home_info {
+  box-sizing: border-box;
+}
 #showcase {
   background: url("1.jpg") no-repeat center center/cover;
   height: 700px;
@@ -84,7 +89,7 @@ a {
 }
 #home_info .info_content {
   float: right;
-  width: 50%;
+  width: 49.7%;
   height: 100%;
   text-align: center;
   overflow: hidden;
@@ -102,6 +107,7 @@ a {
   width: 50%;
 }
 .box {
+  box-sizing: border-box;
   float: left;
   width: 33%;
   height: 150px;
